@@ -1,0 +1,64 @@
+/* Style untuk judul */
+body {
+    background: #b4b4b4;
+}
+
+
+
+.info h1 {
+    font-size: 3rem;
+    color: #1700e4;
+}
+
+h1 {
+    color: #1700e4;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/* Style untuk sub-judul */
+h2 {
+    color: #1700e4;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Style untuk paragraf */
+p {
+    color: #777;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Style untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #c94545;
+    padding: 8px;
+}
+
+/* Style untuk gambar */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Animasi slideDown */
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
